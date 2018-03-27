@@ -3,6 +3,12 @@ A convenience library for reversible AnimatedVectorDrawables
 
 <img src="example.gif" width="300" />
 
+# Structure
+
+ - `example-kotlin` and `example-java` are companions of the [Android recipe: The easy path to animated icons](https://sourcediving.com/android-recipes-the-easy-path-to-animated-icons-878bffcb0920) bog post. They contain examples completely uncoupled from the MorphView library
+ - `example-library` shows how to use the MorphView library.
+ - `library` contains the MorphView library itself
+
 # Usage
 
 ```groovy
