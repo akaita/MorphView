@@ -1,4 +1,15 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.8.0'
+    }
+}
+
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 26
@@ -32,4 +43,17 @@ dependencies {
 
     // Using v26.0.1 to avoid resolution issue with org.jetbrains.trove4j:trove4j:20160824
     implementation 'com.android.support:appcompat-v7:26.1.0'
+}
+
+publish {
+    userOrg = 'akaita'
+    repoName = 'android'
+    groupId = 'com.akaita.android'
+    artifactId = 'morphview'
+    publishVersion = '1.0.0'
+    licences = ['Apache-2.0']
+    desc = 'Convenience library for reversible AnimatedVectorDrawables'
+    website = 'https://github.com/akaita/MorphView'
+    issueTracker = 'https://github.com/akaita/MorphView/issues'
+    repository = 'https://github.com/akaita/MorphView.git'
 }
