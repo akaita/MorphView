@@ -1,4 +1,4 @@
 # MorphView
 A convenience library for reversible AnimatedVectorDrawables
 
-![](example.gif)
+<img src="example.gif" width="300" />
