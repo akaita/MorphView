@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "layers": {
+    "vectorLayer": {
+      "id": "30",
+      "name": "vector",
+      "type": "vector",
+      "children": [
+        {
+          "id": "26383",
+          "name": "group",
+          "type": "group",
+          "children": [
+            {
+              "id": "28",
+              "name": "path",
+              "type": "path",
+              "pathData": "M 12 21.35 L 10.55 20.03 C 5.4 15.36 2 12.28 2 8.5 C 2 5.42 4.42 3 7.5 3 C 9.24 3 10.91 3.81 12 5.09 C 13.09 3.81 14.76 3 16.5 3 C 19.58 3 22 5.42 22 8.5 C 22 12.28 18.6 15.36 13.45 20.04 L 12 21.35 Z",
+              "fillColor": "#ff0000",
+              "strokeWidth": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hiddenLayerIds": []
+  },
+  "timeline": {
+    "animation": {
+      "id": "32",
+      "name": "anim",
+      "duration": 300,
+      "blocks": [
+        {
+          "id": "82",
+          "layerId": "28",
+          "propertyName": "pathData",
+          "startTime": 0,
+          "endTime": 300,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "path",
+          "fromValue": "M 2 8.5 C 2 11.131 3.647 13.423 6.385 16.147 C 7.581 17.338 8.984 18.61 10.55 20.03 L 12 21.35 L 12 21.35 L 13.45 20.04 C 15.129 18.514 16.622 17.159 17.872 15.893 C 20.455 13.277 22 11.048 22 8.5 C 22 5.42 19.58 3 16.5 3 C 15.63 3 14.777 3.203 14.006 3.565 C 13.235 3.928 12.545 4.45 12 5.09 C 11.584 4.601 11.083 4.181 10.525 3.848 C 9.624 3.309 8.575 3 7.5 3 C 4.42 3 2 5.42 2 8.5",
+          "toValue": "M 3.5 1.5 C 4.5 3.833 5.5 6.167 6.5 8.5 C 7.03 9.736 7.559 10.972 8.089 12.207 L 9.5 15.5 L 12.5 22.5 L 15.397 15.74 C 15.931 14.494 16.466 13.247 17 12 C 17.502 10.83 18.003 9.659 18.505 8.489 C 19.503 6.159 20.502 3.83 21.5 1.5 C 19.167 1.5 16.833 1.5 14.5 1.5 C 13.833 6.5 13.167 11.5 12.5 16.5 C 11.833 11.5 11.167 6.5 10.5 1.5 C 8.167 1.5 5.833 1.5 3.5 1.5 C 3.5 1.5 3.5 1.5 3.5 1.5"
+        },
+        {
+          "id": "26384",
+          "layerId": "26383",
+          "propertyName": "pivotX",
+          "startTime": 0,
+          "endTime": 250,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "number",
+          "fromValue": 12,
+          "toValue": 12
+        },
+        {
+          "id": "26385",
+          "layerId": "26383",
+          "propertyName": "pivotY",
+          "startTime": 0,
+          "endTime": 250,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "number",
+          "fromValue": 12,
+          "toValue": 12
+        },
+        {
+          "id": "26386",
+          "layerId": "26383",
+          "propertyName": "rotation",
+          "startTime": 0,
+          "endTime": 250,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "number",
+          "fromValue": 0,
+          "toValue": -90
+        },
+        {
+          "id": "46851",
+          "layerId": "28",
+          "propertyName": "fillColor",
+          "startTime": 0,
+          "endTime": 300,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "color",
+          "fromValue": "#ff0000",
+          "toValue": "#000"
+        }
+      ]
+    }
+  }
+}
