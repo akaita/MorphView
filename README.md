@@ -12,7 +12,7 @@ A convenience library for reversible AnimatedVectorDrawables
 # Usage
 
 ```groovy
-'com.akaita.android:morphview:1.0.0' 
+implement 'com.akaita.android:morphview:1.0.0' 
 ```
 
 ```xml
